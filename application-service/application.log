@@ -1,0 +1,78 @@
+
+ Mon Jun 29 2020 00:00:04 GMT+0700 (Indochina Time): starting import data from
+ Mon Jun 29 2020 00:00:04 GMT+0700 (Indochina Time):from https://feedforall.com/sample-feed.xml,https://feedforall.com/sample.xml,http://feeds.washingtonpost.com/rss/rss_act-four,http://feeds.washingtonpost.com/rss/rss_powerpost
+ Mon Jun 29 2020 00:00:04 GMT+0700 (Indochina Time):------ with url0
+ Mon Jun 29 2020 00:00:05 GMT+0700 (Indochina Time):------ with url1
+ Mon Jun 29 2020 00:00:06 GMT+0700 (Indochina Time):------ with url2
+ Mon Jun 29 2020 00:00:16 GMT+0700 (Indochina Time):------ with url3
+ Mon Jun 29 2020 00:00:27 GMT+0700 (Indochina Time): SUCCESSFUL!!!
+
+ node load.js https://feedforall.com/sample-feed.xml,https://feedforall.com/sample.xml,http://feeds.washingtonpost.com/rss/rss_act-four,http://feeds.washingtonpost.com/rss/rss_powerpost
+ Mon Jun 29 2020 09:07:00 GMT+0700 (Indochina Time): starting import data from
+ Mon Jun 29 2020 09:07:00 GMT+0700 (Indochina Time):from https://feedforall.com/sample-feed.xml,https://feedforall.com/sample.xml
+ Mon Jun 29 2020 09:07:00 GMT+0700 (Indochina Time):------ with url0
+ Mon Jun 29 2020 09:07:02 GMT+0700 (Indochina Time):------ with url1
+ Mon Jun 29 2020 09:07:03 GMT+0700 (Indochina Time): SUCCESSFUL!!!
+ Mon Jun 29 2020 09:26:08 GMT+0700 (Indochina Time): starting import data from
+ Mon Jun 29 2020 09:26:08 GMT+0700 (Indochina Time):from https://feedforall.com/sample-feed.xml,https://feedforall.com/sample.xml
+ Mon Jun 29 2020 09:26:08 GMT+0700 (Indochina Time):------ with url0
+ Mon Jun 29 2020 09:26:10 GMT+0700 (Indochina Time):------ with url1
+ Mon Jun 29 2020 09:26:11 GMT+0700 (Indochina Time): SUCCESSFUL!!!
+ Mon Jun 29 2020 07:23:42 GMT+0000 (Coordinated Universal Time): starting import data from
+ Mon Jun 29 2020 07:25:51 GMT+0000 (Coordinated Universal Time): starting import data from
+ Mon Jun 29 2020 07:26:37 GMT+0000 (Coordinated Universal Time): starting import data from
+ Mon Jun 29 2020 07:26:37 GMT+0000 (Coordinated Universal Time): ERROR Error: connect ECONNREFUSED 127.0.0.1:8000
+ Mon Jun 29 2020 07:37:29 GMT+0000 (Coordinated Universal Time): starting import data from
+ Mon Jun 29 2020 07:37:29 GMT+0000 (Coordinated Universal Time): ERROR Error: connect ECONNREFUSED 127.0.0.1:8000
+ Mon Jun 29 2020 07:38:07 GMT+0000 (Coordinated Universal Time): starting import data from
+ Mon Jun 29 2020 07:38:07 GMT+0000 (Coordinated Universal Time): ERROR Error: connect ECONNREFUSED 127.0.0.1:8000
+ Mon Jun 29 2020 07:39:52 GMT+0000 (Coordinated Universal Time): starting import data from
+ Mon Jun 29 2020 07:39:52 GMT+0000 (Coordinated Universal Time): ERROR Error: connect ECONNREFUSED 127.0.0.1:8000
+ Mon Jun 29 2020 07:47:06 GMT+0000 (Coordinated Universal Time): starting import data from
+ Mon Jun 29 2020 07:47:22 GMT+0000 (Coordinated Universal Time): starting import data from
+ Mon Jun 29 2020 07:47:24 GMT+0000 (Coordinated Universal Time): starting import data from
+ Mon Jun 29 2020 07:49:11 GMT+0000 (Coordinated Universal Time): starting import data from
+ Mon Jun 29 2020 07:53:35 GMT+0000 (Coordinated Universal Time): starting import data from
+ Mon Jun 29 2020 07:53:35 GMT+0000 (Coordinated Universal Time):from https://feedforall.com/sample-feed.xml,https://feedforall.com/sample.xml
+ Mon Jun 29 2020 07:53:35 GMT+0000 (Coordinated Universal Time):------ with url0
+ Mon Jun 29 2020 07:53:37 GMT+0000 (Coordinated Universal Time):------ with url1
+ Mon Jun 29 2020 07:53:38 GMT+0000 (Coordinated Universal Time): SUCCESSFUL!!!
+ Mon Jun 29 2020 07:54:32 GMT+0000 (Coordinated Universal Time): starting import data from
+ Mon Jun 29 2020 07:54:32 GMT+0000 (Coordinated Universal Time):from https://feedforall.com/sample-feed.xml,https://feedforall.com/sample.xml
+ Mon Jun 29 2020 07:54:32 GMT+0000 (Coordinated Universal Time):------ with url0
+ Mon Jun 29 2020 07:54:34 GMT+0000 (Coordinated Universal Time):------ with url1
+ Mon Jun 29 2020 07:54:35 GMT+0000 (Coordinated Universal Time): SUCCESSFUL!!!
+ Mon Jun 29 2020 07:57:01 GMT+0000 (Coordinated Universal Time): INTERNAL SERVICE ERROR!!!-- SyntaxError: Unexpected token u in JSON at position 0
+ Mon Jun 29 2020 07:57:01 GMT+0000 (Coordinated Universal Time): INTERNAL SERVICE ERROR!!!-- SyntaxError: Unexpected token u in JSON at position 0
+ Mon Jun 29 2020 07:57:01 GMT+0000 (Coordinated Universal Time): INTERNAL SERVICE ERROR!!!-- SyntaxError: Unexpected token u in JSON at position 0
+ Mon Jun 29 2020 07:58:29 GMT+0000 (Coordinated Universal Time): INTERNAL SERVICE ERROR!!!-- SyntaxError: Unexpected token u in JSON at position 0
+ Mon Jun 29 2020 07:58:29 GMT+0000 (Coordinated Universal Time): INTERNAL SERVICE ERROR!!!-- SyntaxError: Unexpected token u in JSON at position 0
+ Mon Jun 29 2020 07:58:29 GMT+0000 (Coordinated Universal Time): INTERNAL SERVICE ERROR!!!-- SyntaxError: Unexpected token u in JSON at position 0
+ Mon Jun 29 2020 13:11:40 GMT+0000 (Coordinated Universal Time): starting import data from
+ Mon Jun 29 2020 13:11:40 GMT+0000 (Coordinated Universal Time):from https://feedforall.com/sample-feed.xml,https://feedforall.com/sample.xml
+ Mon Jun 29 2020 13:11:40 GMT+0000 (Coordinated Universal Time):------ with url0
+ Mon Jun 29 2020 13:11:42 GMT+0000 (Coordinated Universal Time):------ with url1
+ Mon Jun 29 2020 13:11:43 GMT+0000 (Coordinated Universal Time): SUCCESSFUL!!!
+ Mon Jun 29 2020 14:31:00 GMT+0000 (Coordinated Universal Time): starting import data from
+ Mon Jun 29 2020 14:31:00 GMT+0000 (Coordinated Universal Time):from https://feedforall.com/sample-feed.xml,https://feedforall.com/sample.xml
+ Mon Jun 29 2020 14:31:00 GMT+0000 (Coordinated Universal Time):------ with url0
+ Mon Jun 29 2020 14:31:04 GMT+0000 (Coordinated Universal Time):------ with url1
+ Mon Jun 29 2020 14:31:06 GMT+0000 (Coordinated Universal Time): SUCCESSFUL!!!
+ Tue Jun 30 2020 02:59:03 GMT+0000 (Coordinated Universal Time): starting import data from
+ Tue Jun 30 2020 02:59:03 GMT+0000 (Coordinated Universal Time):from https://feedforall.com/sample-feed.xml,https://feedforall.com/sample.xml,http://feeds.washingtonpost.com/rss/rss_act-four,http://feeds.washingtonpost.com/rss/rss_powerpost
+ Tue Jun 30 2020 02:59:03 GMT+0000 (Coordinated Universal Time):------ with url0
+ Tue Jun 30 2020 02:59:05 GMT+0000 (Coordinated Universal Time):------ with url1
+ Tue Jun 30 2020 02:59:06 GMT+0000 (Coordinated Universal Time):------ with url2
+ Tue Jun 30 2020 02:59:19 GMT+0000 (Coordinated Universal Time):------ with url3
+ Tue Jun 30 2020 02:59:29 GMT+0000 (Coordinated Universal Time): SUCCESSFUL!!!
+ Tue Jun 30 2020 03:00:04 GMT+0000 (Coordinated Universal Time): starting import data from
+ Tue Jun 30 2020 03:00:04 GMT+0000 (Coordinated Universal Time):from https://feedforall.com/sample-feed.xml
+ Tue Jun 30 2020 03:00:04 GMT+0000 (Coordinated Universal Time):------ with url0
+ Tue Jun 30 2020 03:00:04 GMT+0000 (Coordinated Universal Time): SUCCESSFUL!!!
+ Thu Jul 02 2020 02:50:40 GMT+0000 (Coordinated Universal Time): starting import data from
+ Thu Jul 02 2020 02:50:41 GMT+0000 (Coordinated Universal Time):from https://feedforall.com/sample-feed.xml,https://feedforall.com/sample.xml,http://feeds.washingtonpost.com/rss/rss_act-four,http://feeds.washingtonpost.com/rss/rss_powerpost
+ Thu Jul 02 2020 02:50:41 GMT+0000 (Coordinated Universal Time):------ with url0
+ Thu Jul 02 2020 02:50:42 GMT+0000 (Coordinated Universal Time):------ with url1
+ Thu Jul 02 2020 02:50:43 GMT+0000 (Coordinated Universal Time):------ with url2
+ Thu Jul 02 2020 02:50:52 GMT+0000 (Coordinated Universal Time):------ with url3
+ Thu Jul 02 2020 02:51:02 GMT+0000 (Coordinated Universal Time): SUCCESSFUL!!!

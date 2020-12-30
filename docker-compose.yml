@@ -1,0 +1,86 @@
+version: "3"
+
+
+# networks:
+#   application-network:
+#     external:
+#       name: application-network
+
+services:
+# setup database mysql
+  db-vng:
+    # build:
+    image: 'postgres:10'
+    # image: postgres:9.4
+    ports:
+      - 5432:5432
+    volumes:
+      - './app-db/init-app-db.sh:/docker-entrypoint-initdb.d/init-app-db.sh'
+      - './app-db/init-script:/docker-entrypoint-initdb.d/init-script'
+    container_name: dbvng
+    restart: unless-stopped
+    environment:
+      # POSTGRES_DB: feeds
+      POSTGRES_USER: "root"
+      POSTGRES_PASSWORD: "root"
+
+    #command: sh -c "./docker-entrypoint.sh"
+# use redis for create chanel
+  # redis-service: #caching
+  #   image: redis
+  #   container_name: redis-container
+  #   ports:
+  #     - '6378:6379'
+  #   volumes:
+  #     - './application-service/src/config/connect/script.lua:/data/script.lua'
+  #   environment:
+  #     - ALLOW_EMPTY_PASSWORD=yes
+# backend service
+  application-service:
+    env_file: .env
+    build:
+      context: ./application-service
+    container_name: application-service
+    volumes:
+      - ./application-service:/application-service:cached
+    working_dir: /application-service/
+    restart: unless-stopped
+    # ports:
+    #   - 9000:9000
+    links:
+      - db-vng
+    depends_on:
+      - db-vng
+    command: sh -c "npm i --no-optional && npm start ${url}"
+  frontend-service:
+    env_file: .env
+    image: node:10-alpine
+    working_dir: /frontend-service
+    command: sh -c "npm i --no-optional && npm start"
+    container_name: frontend-service
+    volumes:
+      - './frontend-service:/frontend-service:cached'
+    links:
+      - application-service
+    depends_on:
+      - db-vng
+  nginx:
+    image: nginx:alpine
+    container_name: gateway_container
+    restart: unless-stopped
+    tty: true
+    ports:
+      - '8888:80'
+      - "443:443"
+    volumes:
+      - ./applicationvng.conf:/etc/nginx/conf.d/default.conf
+      - './application-service/log:/var/log/nginx'
+    links:
+      - application-service
+    depends_on:
+      - application-service
+    command:
+      - nginx
+      - '-g'
+      - daemon off;
+# author MinhTran

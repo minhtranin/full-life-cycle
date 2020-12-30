@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      # volumes:
+      #   - name: cert-volume
+      #     secret:
+      #        secretName: "secret-nginx-cert"
+      containers:
+      - name: nginx
+        image: minhtranin/swtest:gateway
+        imagePullPolicy: "Always"
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "100m"
+        ports:
+        - containerPort: 80
+        # - containerPort: 443
+        # volumeMounts:
+        #   - mountPath: "/certs"
+        #     name: cert-volume

@@ -1,0 +1,6 @@
+FROM postgres:10
+MAINTAINER Minhtran
+# COPY ./init-app-db.sh /docker-entrypoint-initdb.d/init-app-db.sh
+# COPY ./postgresql.conf.sample /usr/share/postgresql/postgresql.conf.sample
+EXPOSE 5432
+ENTRYPOINT ["ls -a"]

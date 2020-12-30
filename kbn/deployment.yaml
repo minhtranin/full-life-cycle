@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deployapp
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: deployapp
+
+
+  template:
+    metadata:
+      name: podapp
+      labels:
+        app: deployapp
+    spec:
+      containers:
+      - name: node
+        image: minhtranin/swtest:gateway
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "100m"
+        ports:
+          - containerPort: 8085
+            protocol: TCP
