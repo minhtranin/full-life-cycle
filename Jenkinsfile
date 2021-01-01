@@ -40,15 +40,15 @@
 // }
 pipeline {
   agent none
-// testaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasssssssssssaaaaaaaaaaddasdasdss
+// testaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasssssssssdssaaaaaaaaaaddasdasdss
 //   environment {
 //     DOCKER_IMAGE = "nhtua/flask-docker"
 //   }
   stages {
-    stage("Test") {
+    stage("test") {
       agent { node {label 'master'}}
       steps {
-        sh "ad echo home sss"
+        sh "ads echo home sss"
       }
     }
 
