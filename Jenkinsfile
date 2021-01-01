@@ -54,7 +54,7 @@ pipeline {
     stage("build") {
       agent { node {label 'master'}}
       steps {
-          sh "echo home build"
+          sh "echo home buisssld"
       }
     }
   }
