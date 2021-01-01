@@ -40,7 +40,6 @@
 // }
 pipeline {
   agent none
-// testaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasssssssssdssaaaaaaaaaaddasdasdss
 //   environment {
 //     DOCKER_IMAGE = "nhtua/flask-docker"
 //   }
