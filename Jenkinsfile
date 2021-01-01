@@ -44,7 +44,7 @@ pipeline {
 //     DOCKER_IMAGE = "nhtua/flask-docker"
 //   }
   stages {
-    stage("test") {
+    stage("Test") {
       agent { node {label 'master'}}
       steps {
         sh "echo commit pull request github"
