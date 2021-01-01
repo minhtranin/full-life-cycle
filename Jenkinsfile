@@ -47,7 +47,7 @@ pipeline {
     stage("test") {
       agent { node {label 'master'}}
       steps {
-        sh "ads echo home sss"
+        sh "echo commit pull request github"
       }
     }
 
