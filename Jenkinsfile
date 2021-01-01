@@ -48,7 +48,7 @@ pipeline {
     stage("Test") {
       agent { node {label 'master'}}
       steps {
-        sh "a echo home sss"
+        sh "ad echo home sss"
       }
     }
 
