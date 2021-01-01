@@ -48,14 +48,14 @@ pipeline {
     stage("Test") {
       agent { node {label 'master'}}
       steps {
-        sh "home test"
+        sh "echo home test"
       }
     }
 
     stage("build") {
       agent { node {label 'master'}}
       steps {
-          sh "home build"
+          sh "echo home build"
       }
     }
   }
